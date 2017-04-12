@@ -1,0 +1,13 @@
+exports[`form steps reducer form:steps:move-to-next moves to the next step 1`] = `
+Object {
+  "current": "b",
+  "next": Array [
+    "text",
+    "c",
+    "submit",
+  ],
+  "prev": Array [
+    "a",
+  ],
+}
+`;

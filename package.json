@@ -1,0 +1,51 @@
+{
+  "name": "multi-step-form",
+  "description": "testing out a multi step form in React/Redux",
+  "version": "0.1.0",
+  "author": "gillchristian ",
+  "dependencies": {
+    "ramda": "^0.23.0",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.1",
+    "redux-observable": "^0.14.1",
+    "reselect": "^3.0.0",
+    "rxjs": "^5.3.0",
+    "styled-components": "^1.4.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "enzyme": "^2.8.0",
+    "enzyme-to-json": "^1.5.0",
+    "eslint": "^3.17.1",
+    "eslint-config-react-app": "^0.6.2",
+    "eslint-plugin-flowtype": "^2.30.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "husky": "^0.13.2",
+    "live-server": "^1.2.0",
+    "node-plop": "^0.5.5",
+    "plop": "^1.7.4",
+    "prop-types": "^15.5.4",
+    "react-addons-test-utils": "^15.5.1",
+    "react-scripts": "^0.9.5",
+    "redux-devtools-extension": "^2.13.0"
+  },
+  "scripts": {
+    "start": "cd docs ; live-server",
+    "dev": "react-scripts start",
+    "build": "react-scripts build; rm -r docs; mv build docs;",
+    "test": "react-scripts test --env=jsdom",
+    "test:coverage": "npm t -- --coverage",
+    "lint": "eslint 'src/**/*.{js}'",
+    "precommit": "npm run test:coverage && npm run lint",
+    "generate": "plop --plopfile generators/index.js"
+  },
+  "engines": {
+    "npm": ">=3",
+    "node": ">=4"
+  }
+}

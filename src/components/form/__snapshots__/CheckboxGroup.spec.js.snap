@@ -1,0 +1,22 @@
+exports[`<CheckBoxGroup /> component renders a list of Checkboxes 1`] = `
+<div>
+  <ListItem
+    label="Item A1">
+    <styled.div
+      checked={false}
+      onClick={[Function]} />
+  </ListItem>
+  <ListItem
+    label="Item A2">
+    <styled.div
+      checked={true}
+      onClick={[Function]} />
+  </ListItem>
+  <ListItem
+    label="Item A3">
+    <styled.div
+      checked={false}
+      onClick={[Function]} />
+  </ListItem>
+</div>
+`;

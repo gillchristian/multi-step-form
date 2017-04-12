@@ -1,0 +1,61 @@
+exports[`action creators moveToNextStep creates a MOVE_TO_NEXT_STEP action 1`] = `
+Object {
+  "type": "form:steps:move-to-next",
+}
+`;
+
+exports[`action creators onFieldChange creates an ON_FIELD_CHANGE action with meta and payload 1`] = `
+Object {
+  "meta": "field-name",
+  "payload": Object {
+    "value": "some value",
+  },
+  "type": "form:data:update-field",
+}
+`;
+
+exports[`action creators submitForm creates a SUBMIT_FORM_BEGIN action 1`] = `
+Object {
+  "type": "form:submition:begin",
+}
+`;
+
+exports[`action creators submitFormEnd creates a SUBMIT_FORM_END action with error 1`] = `
+Object {
+  "error": true,
+  "payload": [Error: some error],
+  "type": "form:submition:end",
+}
+`;
+
+exports[`action creators submitFormEnd creates a SUBMIT_FORM_END action with no error 1`] = `
+Object {
+  "type": "form:submition:end",
+}
+`;
+
+exports[`action creators validateAsyncBegin creates an action with the provided field as meta 1`] = `
+Object {
+  "meta": "field-name",
+  "type": "form:validation:async-begin",
+}
+`;
+
+exports[`action creators validateAsyncEnd creates an action with the provided field as meta and error 1`] = `
+Object {
+  "error": true,
+  "meta": "field-name",
+  "payload": [Error: some error],
+  "type": "form:validation:async-end",
+}
+`;
+
+exports[`action creators validateAsyncEnd creates an action with the provided field as meta and payload 1`] = `
+Object {
+  "meta": "field-name",
+  "payload": Object {
+    "foo": "bar",
+  },
+  "type": "form:validation:async-end",
+}
+`;
