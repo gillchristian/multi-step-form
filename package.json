@@ -1,6 +1,7 @@
 {
   "name": "multi-step-form",
   "description": "testing out a multi step form in React/Redux",
+  "homepage": "https://gillchristian.github.io/multi-step-form",
   "version": "0.1.0",
   "author": "gillchristian ",
   "dependencies": {
